@@ -1,4 +1,4 @@
-# handling-multiprocess-in-container
+# Handling-multiprocess-in-container
 Handling Multi-Process in container using Supervisord init-system
 
 # Test without init system
@@ -60,3 +60,6 @@ To test it kill the one of the sleep process
 / # pstree -p
 init(1)---supervisord(7)-+-sleep(10)
 ```
+# References
+* https://docs.docker.com/config/containers/multi-service_container/
+* https://dockernaut.wordpress.com/2019/03/13/one-process-per-container-vs-many-process-pattern/
